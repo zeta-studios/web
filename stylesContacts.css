@@ -27,7 +27,7 @@ body {
 header {
     background-color: #9940ff80;
     color: #fff;
-    padding: 20px;
+    padding: 1%;
     text-align: center;
     box-shadow: 0px 0px 50px #000000;
     margin-bottom: 3%;
@@ -53,7 +53,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #dbdbdb;
+    color: #ffffff;
     font-weight: normal; /* Elimina la negrita */
     font-size: 24px;
     transition: color 0.3s ease;
@@ -268,35 +268,39 @@ section {
 }
 
 header h1 {
-    font-size: 116px;
+    font-size: 76px;
 }
 
 .featured-games {
     text-align: center;
 }
 section h3 {
-    font-size: 18px;
+    font-size: 100%;
     color: #fff; /* Color de texto blanco */
     text-align: right;
-    margin-top: 2%;
     font-family: Mont Heavy;
     font-weight: normal;
 }
 section h4 {
-    font-size: 18px;
+    font-size: 100%;
     color: #fff;
     font-family: Mont Heavy;
     text-align: right;
     font-weight: normal;
-    margin-bottom: 10%;
+
 }
 .business {
     font-family: Highway Gothic;
-    font-size: 18px;
     margin-right: 2%;
 }
-.emails {
-    margin-right: 68%;
+
+
+section h4 {
+    text-align:left;
+
+}
+section h3 {
+    text-align:left;
 }
 
 .nav-link:hover {
@@ -310,4 +314,8 @@ section h4 {
 
 .nav-link:not(:hover) {
     transform: scale(1); 
+}
+
+.morespace {
+    margin-bottom: 10%;
 }

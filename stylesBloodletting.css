@@ -27,7 +27,7 @@ body {
 header {
     background-color: #9940ff80;
     color: #fff;
-    padding: 20px;
+    padding: 1%;
     text-align: center;
     box-shadow: 0px 0px 50px #000000;
     margin-bottom: 3%;
@@ -37,6 +37,7 @@ header h1 {
     font-family: 'Mont Heavy', Arial, sans-serif;
     font-size: 36px;
     font-weight: normal; /* Elimina la negrita */
+    color: #fff;
 }
 
 /* Estilos para los enlaces de navegación */
@@ -63,9 +64,11 @@ nav a:hover {
     color: #ffffff;
 }
 
-header h1 a {               /* TITULOOOOOOOOOOOOOOOOOOOOOOOOO */
-    color: #ffffff;
-    text-decoration: none;
+header h1 {
+    font-family: 'Mont Heavy', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: normal; /* Elimina la negrita */
+    color: #fff;
 }
 
 /* Estilos para la sección de descargas */
@@ -267,11 +270,16 @@ section {
 }
 
 header h1 {
-    font-size: 9.5ch;
+    font-size: 76px;
+}
+header h1 a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .featured-games {
     text-align: center;
+
 }
 
 section h4 {

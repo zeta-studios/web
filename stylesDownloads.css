@@ -27,7 +27,7 @@ body {
 header {
     background-color: #9940ff80;
     color: #fff;
-    padding: 20px;
+    padding: 1%;
     text-align: center;
     box-shadow: 0px 0px 50px #000000;
     margin-bottom: 3%;
@@ -53,7 +53,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #dbdbdb;
+    color: #ffffff;
     font-weight: normal; /* Elimina la negrita */
     font-size: 24px;
     transition: color 0.3s ease;
@@ -267,7 +267,7 @@ section {
 }
 
 header h1 {
-    font-size: 116px;
+    font-size: 76px;
 }
 
 .featured-games {
@@ -299,11 +299,19 @@ section h3 {
 }
 
 .downloads {
-    margin-left: 200px;
+    margin-left: 20%;
 }
 .downloads a {
     color: #ac63ff;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+.downloadsmobile {
+    margin-left: 5%;
+}
+.downloadsmobile a {
+    color: #63ff63;
+    text-decoration: underline;
 }
 
 .versions {
@@ -325,4 +333,25 @@ section h3 {
 
 .nav-link:not(:hover) {
     transform: scale(1); 
+}
+
+@media (max-width: 767px) {                 /* MOVIL */
+    .downloads {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) {          /* TABLET */
+    .downloads {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 991px) {             /* PC */
+    .downloadsmobile {
+        display: none;
+    }
 }

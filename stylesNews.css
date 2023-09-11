@@ -27,7 +27,7 @@ body {
 header {
     background-color: #9940ff80;
     color: #fff;
-    padding: 20px;
+    padding: 1%;
     text-align: center;
     box-shadow: 0px 0px 50px #000000;
     margin-bottom: 3%;
@@ -53,7 +53,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #dbdbdb;
+    color: #ffffff;
     font-weight: normal; /* Elimina la negrita */
     font-size: 24px;
     transition: color 0.3s ease;
@@ -268,7 +268,7 @@ section {
 }
 
 header h1 {
-    font-size: 116px;
+    font-size: 76px;
 }
 
 .featured-games {
