@@ -1,0 +1,294 @@
+/* Cargar la fuente personalizada Highway Gothic */
+@font-face {
+    font-family: 'Highway Gothic';
+    src: url('HighwayGothic.otf') format('opentype'); /* Reemplaza 'HighwayGothic.otf' con la ruta correcta de tu archivo OTF */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Cargar la fuente personalizada Mont Heavy */
+@font-face {
+    font-family: 'Mont Heavy';
+    src: url('MontHeavy.otf') format('opentype'); /* Reemplaza 'MontHeavy.otf' con la ruta correcta de tu archivo OTF */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Highway Gothic', Arial, sans-serif;
+    background-color: #1f1f1f; /* Cambiar el color de fondo a gris medio oscuro */
+    margin: 0;
+    padding: 0;
+    font-size: 100%; /* Aumenta el tamaño del texto en un 10% */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #9940ff80;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 50px #000000;
+    margin-bottom: 3%;
+}
+
+header h1 {
+    font-family: 'Mont Heavy', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: normal; /* Elimina la negrita */
+}
+
+/* Estilos para los enlaces de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display:inline-flex;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #dbdbdb;
+    font-weight: normal; /* Elimina la negrita */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+header h1 a {               /* TITULOOOOOOOOOOOOOOOOOOOOOOOOO */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Estilos para la sección de descargas */
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.658);
+    border-radius: 12px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff; /* Color de texto blanco */
+}
+
+section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff; /* Color de texto blanco */
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #9940ff80;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Fija el pie de página en la parte inferior */
+    box-shadow: 0px 0px 50px #000000;
+}
+
+/* Estilos para enlaces de descarga */
+a.download-link {
+    display: block;
+    background-color: #ff9900;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+a.download-link:hover {
+    background-color: #f77d00;
+}
+
+/* Reducir la transparencia de los recuadros blancos en Featured Games y Latest Updates */
+.featured-games,
+section {
+    background-color: #00000073; /* Reducir la transparencia al 35% */
+}
+
+/* Establecer el tamaño de las imágenes en Featured Games */
+.featured-games figure img {
+    width: 500px; /* Cambiar el ancho según tus necesidades */
+    height: auto;
+    border-radius: 12px; /* Agregar bordes redondeados */
+}
+
+/* Estilo para los juegos individuales */
+.featured-games figure {
+    display: inline-block; /* Muestra los juegos en línea horizontal */
+    margin-right: 20px; /* Espacio entre los juegos */
+    position: relative; /* Posición relativa para alinear el texto */
+}
+
+/* Estilo para el texto dentro de las figuras */
+.featured-games figcaption {
+    position: absolute; /* Posición absoluta para superponer el texto */
+    bottom: 0; /* Alinea el texto en la parte inferior */
+    left: 0; /* Alinea el texto en la parte izquierda */
+    width: 100%; /* Ocupa todo el ancho de la figura */
+    background-color: rgba(255, 0, 0, 0.158); /* Fondo negro con transparencia */
+    color: #fff; /* Color de texto blanco */
+    padding: 5px; /* Espacio interno para el texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
+    font-size: 18px; /* Tamaño del texto */
+    margin-top: 0; /* Ajusta la distancia hacia abajo del texto */
+}
+
+/* Estilo para los enlaces a los juegos */
+.featured-games figure a {
+    font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
+    color: #fff; /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+}
+
+/* ... (Tu CSS anterior) ... */
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #9940ff80;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 3%; /* Fija el pie de página en la parte inferior */
+}
+
+/* Estilos para enlaces de descarga */
+a.download-link {
+    display: block;
+    background-color: #ff9900;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+a.download-link:hover {
+    background-color: #f77d00;
+}
+
+/* Reducir la transparencia de los recuadros blancos en Featured Games y Latest Updates */
+.featured-games,
+.latest-updates,
+section {
+    background-color: #00000036; /* Reducir la transparencia al 35% */
+}
+
+/* Establecer el tamaño de las imágenes en Featured Games */
+.featured-games figure img {
+    width: 500px; /* Cambiar el ancho según tus necesidades */
+    height: auto;
+    border-radius: 12px; /* Agregar bordes redondeados */
+}
+
+/* Estilo para los juegos individuales */
+.featured-games figure,
+.latest-updates figure {
+    display: inline-block; /* Muestra los juegos en línea horizontal */
+    margin-right: 20px; /* Espacio entre los juegos */
+    position: relative; /* Posición relativa para alinear el texto */
+}
+
+/* Estilo para el texto dentro de las figuras */
+.featured-games figcaption,
+.latest-updates figcaption {
+    position: absolute; /* Posición absoluta para superponer el texto */
+    bottom: 0; /* Alinea el texto en la parte inferior */
+    left: 0; /* Alinea el texto en la parte izquierda */
+    width: 100%; /* Ocupa todo el ancho de la figura */
+    background-color: rgba(255, 0, 0, 0.158); /* Fondo negro con transparencia */
+    color: #fff; /* Color de texto blanco */
+    padding: 5px; /* Espacio interno para el texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
+    font-size: 18px; /* Tamaño del texto */
+    margin-top: 0; /* Ajusta la distancia hacia abajo del texto */
+}
+
+/* Estilo para los enlaces a los juegos */
+.featured-games figure a,
+.latest-updates figure a {
+    font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
+    color: #fff; /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+}
+
+/* Estilo para el texto dentro de las figuras */
+.featured-games figcaption,
+.latest-updates figcaption {
+    font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
+    color: #fff; /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    position: absolute; /* Posiciona el fondo de manera absoluta con respecto a la figura */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
+    padding: 12px; /* Ajusta el espacio dentro del fondo */
+    border-radius: 12px; /* Agrega bordes redondeados */
+    width: 95.2%; /* Ajusta el ancho del fondo */
+    margin: 0 auto; /* Centra horizontalmente el fondo */
+    bottom: 6px; /* Coloca el fondo 10px desde la parte inferior */
+    left: 50%; /* Centra horizontalmente el fondo */
+    transform: translateX(-50%); /* Ajusta la posición horizontal */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.featured-games,
+.latest-updates {
+    color: #fff !important; /* Color de texto blanco (usamos !important para asegurar la prioridad) */
+    /* Agrega otros estilos específicos si es necesario */
+}
+/* ... Tu CSS posterior ... */
+
+.latest-updates {
+    background-color: #00000000;
+}
+
+.featured-games {
+    background-color: #00000000;
+}
+
+header h1 {
+    font-size: 9.5ch;
+}
+
+.featured-games {
+    text-align: center;
+}
+
+section h4 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    transform: scale(1.1); 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.nav-link:not(:hover) {
+    transform: scale(1); 
+}
