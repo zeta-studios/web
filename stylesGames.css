@@ -25,6 +25,12 @@ body {
 
 /* Estilos para el encabezado */
 header {
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101%;
+    background-size: cover;
+    background-position-y: 0%;
     background-color: #9940ff80;
     color: #fff;
     padding: 1%;
@@ -85,8 +91,8 @@ section h2 {
 }
 
 section h3 {
-    font-size: 32px;
-    margin-bottom: 48px;
+    font-size: 46px;
+    margin-bottom: 7%;
     color: #fff; /* Color de texto blanco */
     text-align: center;
     font-family: Mont Heavy;
@@ -95,6 +101,12 @@ section h3 {
 
 /* Estilos para el pie de página */
 footer {
+    background-image: url(wave2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    background-size: cover;
+    background-position-y: 40%;
     background-color: #9940ff80;
     color: #fff;
     text-align: center;
@@ -138,8 +150,8 @@ section {
     width: 90%; /* Cambiar el ancho según tus necesidades */
     height: auto;
     border-radius: 12px; /* Agregar bordes redondeados */
-    margin-left: 0%;
-    margin-right: 0%;
+    margin: 0%;
+    padding: 0%;
     box-shadow: 0px 0px 50px #000000;
     max-width: 350px;
     
@@ -165,6 +177,7 @@ section {
     font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
     font-size: 18px; /* Tamaño del texto */
     margin-top: 0; /* Ajusta la distancia hacia abajo del texto */
+    margin-bottom: 50px;
 }
 
 /* Estilo para los enlaces a los juegos */
@@ -214,16 +227,17 @@ section {
 .featured-games figure img {
     width: 500px; /* Cambiar el ancho según tus necesidades */
     height: auto;
-    border-radius: 12px; /* Agregar bordes redondeados */
+    border-radius: 15px; /* Agregar bordes redondeados */
 }
 
 /* Estilo para los juegos individuales */
 .featured-games figure,
 .latest-updates figure {
     display: inline-block; /* Muestra los juegos en línea horizontal */
-    margin-right: 10px;
-    margin-left: 10px; /* Espacio entre los juegos */
+    margin-right: 5%;
+    margin-left: 5%; /* Espacio entre los juegos */
     position: relative; /* Posición relativa para alinear el texto */
+    margin-bottom: 3.5%;
 }
 
 /* Estilo para los juegos individuales */
@@ -286,7 +300,7 @@ section {
     border-radius: 12px; /* Agrega bordes redondeados */
     width: 95.2%; /* Ajusta el ancho del fondo */
  
-    margin: 0 auto; /* Centra horizontalmente el fondo */
+    margin: 0 auto;/* Centra horizontalmente el fondo */
     bottom: 6px; /* Coloca el fondo 10px desde la parte inferior */
     left: 50%; /* Centra horizontalmente el fondo */
     transform: translateX(-50%); /* Ajusta la posición horizontal */
@@ -298,16 +312,15 @@ section {
     font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
     color: #fff; /* Cambia el color del texto a blanco */
     text-decoration: none; /* Quita la subrayado de los enlaces */
-    position: absolute; /* Posiciona el fondo de manera absoluta con respecto a la figura */
+    position: relative; /* Posiciona el fondo de manera absoluta con respecto a la figura */
     background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
-    padding: 12px; /* Ajusta el espacio dentro del fondo ALTURAAA */
+    padding-inline: 2.7%;
+    padding-block: 3%; /* Ajusta el espacio dentro del fondo ALTURAAA */
     border-radius: 12px; /* Agrega bordes redondeados */
-    width: 93.3%; /* Ajusta el ancho del fondo */
-    height: 8%;
-    margin: 0 auto; /* Centra horizontalmente el fondo */
-    bottom: 6px; /* Coloca el fondo 10px desde la parte inferior */
-    left: 50%; /* Centra horizontalmente el fondo */
-    transform: translateX(-50%); /* Ajusta la posición horizontal */
+    width: 94.6%; /* Ajusta el ancho del fondo */
+    height: 12%;
+    bottom: 54px;
+ /* Centra horizontalmente el fondo */
     transition: background-color 0.3s ease; /* Transición suave */
 }
 
@@ -336,10 +349,11 @@ header h1 {
 }
 
 section h4 {
-    font-size: 32px;
+    font-size: 46px;
     color: #fff;
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 7%;
+    font-family: Mont Heavy;
 }
 
 /* Añade esta regla al final de tu hoja de estilos CSS */
@@ -405,5 +419,5 @@ section h4 {
 
 .games figure img {
     width: 100%;
-    max-width: 350px;
+    max-width: 454px;
 }

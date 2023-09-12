@@ -6,40 +6,51 @@
     font-style: normal;
 }
 
-/* Cargar la fuente personalizada Mont Heavy */
+
 @font-face {
     font-family: 'Mont Heavy';
-    src: url('MontHeavy.otf') format('opentype'); /* Reemplaza 'MontHeavy.otf' con la ruta correcta de tu archivo OTF */
+    src: url('MontHeavy.otf') format('opentype'); 
     font-weight: normal;
     font-style: normal;
 }
 
-/* Estilos generales */
+
+
+
 body {
     font-family: 'Highway Gothic', Arial, sans-serif;
-    background-color: #1f1f1f; /* Cambiar el color de fondo a gris medio oscuro */
+    background-color: #34233f; 
     margin: 0;
     padding: 0;
-    font-size: 100%; /* Aumenta el tamaño del texto en un 10% */
+    font-size: 100%;
 }
 
 /* Estilos para el encabezado */
+
 header {
-    background-color: #9940ff80;
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101%;
+    background-size: cover;
+    background-position-y: 0%;
+    background-color: #9940ffb0;
     color: #fff;
     padding: 1%;
     text-align: center;
-    box-shadow: 0px 0px 50px #000000;
-    margin-bottom: 3%;
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,1);
+    margin-bottom: 5%;
 }
+
 
 
 header h1 {
     font-family: 'Mont Heavy', Arial, sans-serif;
     font-size: 36px;
     font-weight: normal; /* Elimina la negrita */
-    color: #fff;
 }
+
+
 
 /* Estilos para los enlaces de navegación */
 nav ul {
@@ -78,8 +89,8 @@ header h1 a {               /* TITULOOOOOOOOOOOOOOOOOOOOOOOOO */
 section {
     background-color: #fff;
     padding: 40px;
-    margin: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.658);
+    margin: 6%;
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,1);
     border-radius: 12px;
 }
 
@@ -98,12 +109,18 @@ section h3 {
 
 /* Estilos para el pie de página */
 footer {
+    background-image: url(wave2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    background-size: cover;
+    background-position-y: 40%;
     background-color: #9940ff80;
     color: #fff;
     text-align: center;
     padding: 10px;
-    margin-top: auto; /* Fija el pie de página en la parte inferior */
-    box-shadow: 0px 0px 50px #000000;
+    margin-top: 5%; /* Fija el pie de página en la parte inferior */
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,1);
 }
 
 /* Estilos para enlaces de descarga */
@@ -126,7 +143,7 @@ a.download-link:hover {
 /* Reducir la transparencia de los recuadros blancos en Featured Games y Latest Updates */
 .featured-games,
 section {
-    background-color: #00000036; /* Reducir la transparencia al 35% */
+    background-color: #ff000036; /* Reducir la transparencia al 35% */
 }
 
 /* Establecer el tamaño de las imágenes en Featured Games */
@@ -174,7 +191,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    margin-top: 3%; /* Fija el pie de página en la parte inferior */
+    margin-top: 5%; /* Fija el pie de página en la parte inferior */
 }
 
 /* Estilos para enlaces de descarga */
@@ -198,7 +215,7 @@ a.download-link:hover {
 .featured-games,
 .latest-updates,
 section {
-    background-color: #00000036; /* Reducir la transparencia al 35% */
+    background-color: #3933448f; /* Reducir la transparencia al 35% */
 }
 
 /* Establecer el tamaño de las imágenes en Featured Games */
@@ -206,7 +223,7 @@ section {
     width: 500px; /* Cambiar el ancho según tus necesidades */
     height: auto;
     border-radius: 12px; /* Agregar bordes redondeados */
-    box-shadow: 0px 0px 50px #000000;
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,1);
 }
 
 /* Estilo para los juegos individuales */
@@ -289,9 +306,9 @@ section h4 {
 }
 
 section h3 {
-    font-size: 32px;
+    font-size: 44px;
     font-weight: normal;
-    font-family: 'Mont Heavy';
+    font-family: 'Mont Heavy';    
 }
 
 footer p {
@@ -316,7 +333,16 @@ footer p {
 }
 
 
+.nav-link {
+    background-color: hsla(0, 0%, 100%, 0.05);
+    padding-inline: 35px;
+    border-radius: 10px;
+    padding-block: 6px;
+    box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.521);
+}
 
+
+/* ANIMACION POP UP */
 
 .nav-link:hover {
     color: #ffffff;
@@ -334,6 +360,29 @@ footer p {
 .featured-games figure img {
     width: 100%;
     max-width: 500px;
+    
 }
+
+.titleseconds {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section h2 {
+    color: #ffffff;
+    margin-bottom: 3%;
+    size: 26px;
+}
+
+section h3 {
+    margin-bottom: 4%;
+}
+
+.latesttitle {
+    font-family: Mont Heavy;
+    font-weight: normal;
+    font-size: 28px;
+}
+
 
 
