@@ -25,6 +25,12 @@ body {
 
 /* Estilos para el encabezado */
 header {
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101%;
+    background-size: cover;
+    background-position-y: 0%;
     background-color: #9940ff80;
     color: #fff;
     padding: 1%;
@@ -95,6 +101,12 @@ section h3 {
 
 /* Estilos para el pie de página */
 footer {
+    background-image: url(wave2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    background-size: cover;
+    background-position-y: 40%;
     background-color: #9940ff80;
     color: #fff;
     text-align: center;

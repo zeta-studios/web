@@ -6,25 +6,34 @@
     font-style: normal;
 }
 
-/* Cargar la fuente personalizada Mont Heavy */
+
 @font-face {
     font-family: 'Mont Heavy';
-    src: url('MontHeavy.otf') format('opentype'); /* Reemplaza 'MontHeavy.otf' con la ruta correcta de tu archivo OTF */
+    src: url('MontHeavy.otf') format('opentype'); 
     font-weight: normal;
     font-style: normal;
 }
 
-/* Estilos generales */
+
+
+
 body {
     font-family: 'Highway Gothic', Arial, sans-serif;
-    background-color: #1f1f1f; /* Cambiar el color de fondo a gris medio oscuro */
+    background-color: #1f1f1f; 
     margin: 0;
     padding: 0;
-    font-size: 100%; /* Aumenta el tamaño del texto en un 10% */
+    font-size: 100%;
 }
 
 /* Estilos para el encabezado */
+
 header {
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101%;
+    background-size: cover;
+    background-position-y: 0%;
     background-color: #9940ff80;
     color: #fff;
     padding: 1%;
@@ -34,12 +43,14 @@ header {
 }
 
 
+
 header h1 {
     font-family: 'Mont Heavy', Arial, sans-serif;
     font-size: 36px;
     font-weight: normal; /* Elimina la negrita */
-    color: #fff;
 }
+
+
 
 /* Estilos para los enlaces de navegación */
 nav ul {
@@ -98,6 +109,12 @@ section h3 {
 
 /* Estilos para el pie de página */
 footer {
+    background-image: url(wave2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    background-size: cover;
+    background-position-y: 40%;
     background-color: #9940ff80;
     color: #fff;
     text-align: center;
@@ -334,6 +351,6 @@ footer p {
 .featured-games figure img {
     width: 100%;
     max-width: 500px;
+    
 }
-
 
