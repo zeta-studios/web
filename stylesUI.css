@@ -21,6 +21,17 @@ body {
     font-size: 100%;
 }
 
+.videoback {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
 header {
     background-image: url(wave.svg);
     background-repeat: no-repeat;
@@ -28,7 +39,7 @@ header {
     background-size: 101%;
     background-size: cover;
     background-position-y: 0%;
-    background-color: #9940ffb0;
+    background-color: #7833c7;
     color: #fff;
     padding: 1%;
     text-align: center;
@@ -83,7 +94,7 @@ footer {
     background-size: 35%;
     background-size: cover;
     background-position-y: 40%;
-    background-color: #9940ff80;
+    background-color: #7833c7;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -93,7 +104,7 @@ footer {
 }
 
 footer {
-    background-color: #9940ff80;
+    background-color: #7833c7;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -107,7 +118,7 @@ footer {
 .featured-games,
 .latest-updates,
 section {
-    background-color: #3933448f;
+    background-color: #3e1c64;
 }
 
 .latest-updates {
@@ -150,6 +161,4 @@ footer p {
 .nav-link:not(:hover) {
     transform: scale(1); 
 }
-
-
 
