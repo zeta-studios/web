@@ -187,19 +187,19 @@ footer p {
 .language-selector1, .language-selector2 {
     color: #fff;
     text-decoration: none;
-    position: fixed;
+    position: absolute;
     background-color: #6145ff;
     padding-inline: 1%;
     padding-block: 0.3%;
     font-size: 125%;
-    margin-top: 820px;
+    margin-top: 2%;
     border-radius: 10px;
-    margin-left: 1%;
+    margin-left: 2%;
     z-index: 100;
 }
 
 .language-selector2 {
-    margin-top: 870px;
+    margin-top: 12%;
 }
 
 /* ANIMACION POP UP */

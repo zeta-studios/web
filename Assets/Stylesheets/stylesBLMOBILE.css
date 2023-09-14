@@ -331,7 +331,7 @@ header h1 a {
 }
 
 .container .thumbnail_container  .thumbnail {
-    width: 100px;
+    width: 32%;
     height: auto;
     border-radius: 5px;
     cursor: pointer;
@@ -352,7 +352,7 @@ header h1 a {
 }
 
 section h4 {
-    font-size: 250%;
+    font-size: 200%;
     color: #fff;
     font-family: Mont Heavy;
     text-align: center;
@@ -399,7 +399,7 @@ section p {
 .downloadto {
     color: #ffffff;
     text-decoration: none;
-    margin-inline: 15.5%;
+    margin-inline: 7.8%;
     padding-inline: 4%;
     padding-block: 1%;
     font-size: 36px;
