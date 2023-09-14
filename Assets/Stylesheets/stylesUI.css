@@ -201,3 +201,33 @@ footer p {
 .language-selector2 {
     margin-top: 870px;
 }
+
+/* ANIMACION POP UP */
+.language-selector2:hover {
+    background-color: #7a62ff;
+    transform: scale(1.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.language-selector2 {
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.language-selector2:not(:hover) {
+    transform: scale(1); 
+}
+
+/* ANIMACION POP UP */
+.language-selector1:hover {
+    background-color: #7a62ff;
+    transform: scale(1.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.language-selector1 {
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.language-selector1:not(:hover) {
+    transform: scale(1); 
+}
+
+
