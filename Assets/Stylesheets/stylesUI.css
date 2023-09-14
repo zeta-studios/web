@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Highway Gothic';
+    src: url('HighwayGothic.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Mont Heavy';
+    src: url("MontHeavy.otf") format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: 'Highway Gothic', Arial, sans-serif;
+    background-color: #000000; 
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+.videoback {
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    opacity: 80%;
+}
+
+header {
+    background-image: url(../ui-assets/wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101%;
+    background-size: cover;
+    background-position-y: 0%;
+    background-color: #7833c7;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,1);
+    margin-bottom: 5%;
+}
+
+header h1 {
+    font-family: 'Mont Heavy', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: normal; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display:inline-flex;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+nav a {                      /* Navegaciooooooooooooooooooooooooooooooooooooooooon */
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal; 
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+
+header h1 a {               /* TITULOOOOOOOOOOOOOOOOOOOOOOOOO */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin-inline:5%;
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,1);
+    border-radius: 50px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    background-size: cover;
+    background-position-y: 40%;
+    background-color: #7833c7;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5%; 
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,1);
+    margin-bottom: 1%;
+}
+
+footer {
+    background-image: linear-gradient(-90deg, #492079 0%, #622fb3 53%, #492079 100%);
+    color: #fff;
+    text-align: center;
+    padding: 0.05%;
+    margin-top: 5%;
+    border-radius: 25px;
+    margin-inline: 25%;
+
+}
+
+
+section {
+    background-image: linear-gradient(-90deg, #492079 0%, #622fb3 53%, #492079 100%);
+}
+
+.latest-updates {
+    background-color: #00000000;
+}
+
+.featured-games {
+    background-color: #00000000;
+}
+
+header h1 {
+    font-size: 76px;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.nav-link {
+    background-color: hsla(0, 0%, 100%, 0.05);
+    padding-inline: 35px;
+    border-radius: 10px;
+    padding-block: 4%;
+    margin-block: 4%;
+    box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.521);
+    transition: background-color 0.3s ease;
+}
+
+/* ANIMACION POP UP */
+.nav-link:hover {
+    background-color: hsla(0, 0%, 100%, 0.08);
+    transform: scale(1.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.nav-link {
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.nav-link:not(:hover) {
+    transform: scale(1); 
+}
+
+@media (max-width: 767px) {                 /* MOVIL */
+    .titleheader {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) {          /* TABLET */
+    .titleheader {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 991px) {             /* PC */
+    .titleheadermobile {
+        display: none;
+    }
+}
+
+.titleheader {
+    font-size: 96px;
+}
+
+
+.language-selector1, .language-selector2 {
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    background-color: #6145ff;
+    padding-inline: 1%;
+    padding-block: 0.3%;
+    font-size: 125%;
+    margin-top: 820px;
+    border-radius: 10px;
+    margin-left: 1%;
+    z-index: 100;
+}
+
+.language-selector2 {
+    margin-top: 870px;
+}
