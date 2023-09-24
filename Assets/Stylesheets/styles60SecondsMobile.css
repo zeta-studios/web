@@ -331,7 +331,7 @@ header h1 a {
 }
 
 .container .thumbnail_container  .thumbnail {
-    width: 100px;
+    width: 32%;
     height: auto;
     border-radius: 5px;
     cursor: pointer;
@@ -352,15 +352,15 @@ header h1 a {
 }
 
 section h4 {
-    font-size: 250%;
+    font-size: 240%;
     color: #fff;
     font-family: Mont Heavy;
     text-align: center;
     background-color: #8d8d8d25;
     border-radius: 200px;
     margin-inline: 0%;
-    margin-bottom: 5%;
-    margin-top: -5%;
+    margin-bottom: 10%;
+    margin-top: -3%;
     padding-block: 0.5%;
     box-shadow: 0 0 100px black;
 }
@@ -369,16 +369,17 @@ section h4 {
     margin-inline: 5%;
 }
 
+/*about this game tittle*/
 .bloodtitle {
     color: #fff;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
 
 section div p {
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     font-weight: normal;
     text-shadow: 0 0 50px black;
@@ -391,7 +392,7 @@ section p {
     color: #ffffff;
     font-size: 22px;
     font-weight: bold;
-    text-align: center;
+    text-align: lef;
     text-shadow: 0 0 50px black;
     margin-bottom: 18%;
 }
@@ -399,7 +400,6 @@ section p {
 .downloadto {
     color: #ffffff;
     text-decoration: none;
-    margin-inline: 7.8%;
     padding-inline: 4%;
     padding-block: 1%;
     font-size: 36px;
@@ -407,4 +407,8 @@ section p {
     border-radius: 10px;
     font-family: Mont Heavy;
     box-shadow: 0 0 50px black;
+}
+
+section {
+    text-align: center;
 }
