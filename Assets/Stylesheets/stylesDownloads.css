@@ -1,16 +1,12 @@
 @font-face {
     font-family: 'Highway Gothic';
     src: url('HighwayGothic.otf') format('opentype'); 
-    font-weight: normal;
-    font-style: normal;
 }
 
 
 @font-face {
     font-family: 'Mont Heavy';
     src: url("MontHeavy.otf") format('opentype'); 
-    font-weight: normal;
-    font-style: normal;
 }
 
 /* Estilos generales */

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Highway Gothic';
-    src: url('HighwayGothic.otf') format('opentype'); 
+    src: url('HighwayGothic.ttf') format('opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Mont Heavy';
-    src: url("MontHeavy.otf") format('opentype'); 
+    src: url("MontHeavy1.ttf") format('opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -17,19 +17,13 @@
 
 body {
     font-family: 'Highway Gothic', Arial, sans-serif;
-    background-color: #000000; 
+    background: rgb(16,9,24);
+    background: linear-gradient(90deg, rgba(16,9,24,1) 0%, rgba(113, 61, 170) 50%, rgba(16,9,24,1) 100%); 
     margin: 0;
     padding: 0;
     font-size: 100%;
 }
 
-.videoback {
-    position: fixed;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    opacity: 80%;
-}
 
 header {
     background-image: url(../ui-assets/wave.svg);
@@ -230,4 +224,9 @@ footer p {
     transform: scale(1); 
 }
 
-
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
