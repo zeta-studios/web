@@ -321,7 +321,7 @@ section h3 {
 }
 
 .downloadsmobile {
-    margin-left: 20%;
+    margin-left: 5%;
 }
 .downloadsmobile a {
     color: #63ff63;
@@ -381,3 +381,9 @@ section h3 {
     font-size: 14px;
     color: #ffffffcc;
 }
+
+.align {
+    text-align: left;
+    margin-left: -5%;
+}
+

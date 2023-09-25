@@ -182,7 +182,7 @@ footer p {
     color: #fff;
     text-decoration: none;
     position: absolute;
-    background-color: #6145ff;
+    background-color: #d9b7ff62;
     padding-inline: 1%;
     padding-block: 0.3%;
     font-size: 125%;
@@ -198,7 +198,7 @@ footer p {
 
 /* ANIMACION POP UP */
 .language-selector2:hover {
-    background-color: #7a62ff;
+    background-color: #7962ff4f;
     transform: scale(1.1); 
     transition: background-color 0.3s ease, transform 0.3s ease; 
 }
@@ -230,3 +230,14 @@ footer p {
     position: fixed;
     z-index: -1;
 }
+
+
+.titleheader{
+    background-image: url("../img-and-videos/logoz.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 0%;
+    padding-left: 12%;
+}
+
