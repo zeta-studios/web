@@ -77,7 +77,7 @@ header h1 a {               /* TITULOOOOOOOOOOOOOOOOOOOOOOOOO */
 section {
     background-color: #fff;
     padding: 40px;
-    margin: 20px;
+    margin: 0px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.658);
     border-radius: 12px;
 }
@@ -144,7 +144,7 @@ section {
 /* Estilo para los juegos individuales */
 .featured-games figure {
     display: inline-block; /* Muestra los juegos en línea horizontal */
-    margin-right: 20px; /* Espacio entre los juegos */
+    margin-right: 0px; /* Espacio entre los juegos */
     position: relative; /* Posición relativa para alinear el texto */
 }
 
@@ -216,7 +216,7 @@ section {
 .featured-games figure,
 .latest-updates figure {
     display: inline-block; /* Muestra los juegos en línea horizontal */
-    margin-right: 20px; /* Espacio entre los juegos */
+    margin-right: 0px; /* Espacio entre los juegos */
     position: relative; /* Posición relativa para alinear el texto */
 }
 
@@ -296,22 +296,21 @@ section h4 {
     font-size: 100%;
     color: #fff;
     font-family: Mont Heavy;
-    text-align: right;
     font-weight: normal;
 
 }
 .business {
     font-family: Highway Gothic;
-    margin-right: 2%;
+
 }
 
 
 section h4 {
-    text-align:left;
+    text-align:center;
 
 }
 section h3 {
-    text-align:left;
+    text-align:center;
 }
 
 .nav-link:hover {
@@ -333,4 +332,28 @@ section h3 {
 
 .morespace2 {
     margin-bottom: 3%;
+}
+
+.Correos {
+    display: block;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+.emails {
+    color: #ffa127;
+    font-size: 125%;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px;
+    transition: text-shadow 0.3s ease;
+}
+
+.emails:hover {
+    color: #ffc354;
+    text-shadow: 0px 0px 20px #c26e00;
+    
 }

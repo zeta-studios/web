@@ -147,13 +147,8 @@ section {
 }
 
 .games figure img {
-    width: 90%; /* Cambiar el ancho según tus necesidades */
-    height: auto;
     border-radius: 12px; /* Agregar bordes redondeados */
-    margin: 0%;
-    padding: 0%;
     box-shadow: 0px 0px 50px #000000;
-    max-width: 350px;
     
 }
 
@@ -175,7 +170,7 @@ section {
     padding: 5px; /* Espacio interno para el texto */
     text-align: center; /* Centra el texto horizontalmente */
     font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
-    font-size: 18px; /* Tamaño del texto */
+    font-size: 150%; /* Tamaño del texto */
     margin-top: 0; /* Ajusta la distancia hacia abajo del texto */
     margin-bottom: 50px;
 }
@@ -185,7 +180,7 @@ section {
     font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
     color: #fff; /* Cambia el color del texto a blanco */
     text-decoration: none; /* Quita la subrayado de los enlaces */
-    margin-top: 50%;
+    margin-top: 25%;
 }
 
 /* ... (Tu CSS anterior) ... */
@@ -225,60 +220,45 @@ section {
 
 /* Establecer el tamaño de las imágenes en Featured Games */
 .featured-games figure img {
-    width: 500px; /* Cambiar el ancho según tus necesidades */
+    width: 100%; /* Cambiar el ancho según tus necesidades */
     height: auto;
     border-radius: 15px; /* Agregar bordes redondeados */
 }
 
 /* Estilo para los juegos individuales */
-.featured-games figure,
-.latest-updates figure {
-    display: inline-block; /* Muestra los juegos en línea horizontal */
-    margin-right: 5%;
-    margin-left: 5%; /* Espacio entre los juegos */
-    position: relative; /* Posición relativa para alinear el texto */
-    margin-bottom: 3.5%;
-}
 
 /* Estilo para los juegos individuales */
 .games figure {
-    display: inline-block; /* Muestra los juegos en línea horizontal */
-    margin-right: 2%;
-    margin-left: 3%; /* Espacio entre los juegos */
-    position:relative; /* Posición relativa para alinear el texto */
+    
+display: inline-block;    
+margin-bottom: 10%;
+position: relative;
+padding-inline: 0%;
+
 }
 
 /* Estilo para el texto dentro de las figuras */
 .games figcaption {
-    position: absolute; /* Posición absoluta para superponer el texto */
-    bottom: 0; /* Alinea el texto en la parte inferior */
-    left: 0; /* Alinea el texto en la parte izquierda */
-    width: 100%; /* Ocupa todo el ancho de la figura */
-    background-color: rgba(255, 0, 0, 0.158); /* Fondo negro con transparencia */
-    color: #fff; /* Color de texto blanco */
-    padding: 5px; /* Espacio interno para el texto */
-    text-align: center; /* Centra el texto horizontalmente */
-    font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
-    font-size: 16px; /* Tamaño del texto */
-    margin-top: 0; /* Ajusta la distancia hacia abajo del texto */
+
+    padding-block: 3%;
+    color: #fff;
+    text-align: center; 
+    font-family: 'Mont Heavy', Arial, sans-serif; 
+    font-size: 150%;
+    position: absolute;
+    width: 100%;
+    bottom: 2%;
+    
+
+}
+
+.games figcaption a {
+    text-align: center;
+  
 }
 
 
-/* Estilo para el texto dentro de las figuras */
-.featured-games figcaption,
-.latest-updates figcaption {
-    position: absolute; /* Posición absoluta para superponer el texto */
-    bottom: 0; /* Alinea el texto en la parte inferior */
-    left: 0; /* Alinea el texto en la parte izquierda */
-    width: 100%; /* Ocupa todo el ancho de la figura */
-    background-color: rgba(255, 0, 0, 0.158); /* Fondo negro con transparencia */
-    color: #fff; /* Color de texto blanco */
-    padding: 5px; /* Espacio interno para el texto */
-    text-align: center; /* Centra el texto horizontalmente */
-    font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
-    font-size: 18px; /* Tamaño del texto */
-    margin-top: 0; /* Ajusta la distancia hacia abajo del texto */
-}
+
 
 /* Estilo para los enlaces a los juegos */
 .featured-games figure a,
@@ -294,34 +274,23 @@ section {
     font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
     color: #fff; /* Cambia el color del texto a blanco */
     text-decoration: none; /* Quita la subrayado de los enlaces */
-    position: absolute; /* Posiciona el fondo de manera absoluta con respecto a la figura */
     background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
-    padding: 12px; /* Ajusta el espacio dentro del fondo */
-    border-radius: 12px; /* Agrega bordes redondeados */
-    width: 95.2%; /* Ajusta el ancho del fondo */
- 
-    margin: 0 auto;/* Centra horizontalmente el fondo */
-    bottom: 6px; /* Coloca el fondo 10px desde la parte inferior */
-    left: 50%; /* Centra horizontalmente el fondo */
-    transform: translateX(-50%); /* Ajusta la posición horizontal */
+    border-radius: 15px; /* Agrega bordes redondeados */
     transition: background-color 0.3s ease; /* Transición suave */
+    margin-bottom: 1.5%;
+    padding-block: 3%;
 }
 
 /* Estilo para el texto dentro de las figuras */
 .games figcaption {
     font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
     color: #fff; /* Cambia el color del texto a blanco */
-    text-decoration: none; /* Quita la subrayado de los enlaces */
-    position: relative; /* Posiciona el fondo de manera absoluta con respecto a la figura */
+    text-decoration: none; /* Quita la subrayado de los enlaces */ /* Posiciona el fondo de manera absoluta con respecto a la figura */
     background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
-    padding-inline: 2.7%;
-    padding-block: 3%; /* Ajusta el espacio dentro del fondo ALTURAAA */
-    border-radius: 12px; /* Agrega bordes redondeados */
-    width: 94.6%; /* Ajusta el ancho del fondo */
-    height: 12%;
-    bottom: 56px;
- /* Centra horizontalmente el fondo */
-    transition: background-color 0.3s ease; /* Transición suave */
+    border-radius: 15px; /* Agrega bordes redondeados *//* Ajusta el ancho del fondo */
+    transition: background-color 0.3s ease; 
+
+
 }
 
 
@@ -330,7 +299,6 @@ section {
     color: #fff !important; /* Color de texto blanco (usamos !important para asegurar la prioridad) */
     /* Agrega otros estilos específicos si es necesario */
 }
-/* ... Tu CSS posterior ... */
 
 .latest-updates {
     background-color: #00000000;
@@ -445,4 +413,8 @@ section h4 {
     .mobile {
         display: none;
     }
+}
+
+.games {
+    text-align: center;
 }

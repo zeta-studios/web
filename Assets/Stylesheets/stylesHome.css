@@ -239,7 +239,7 @@ section {
     width: 100%; /* Ocupa todo el ancho de la figura */
     background-color: rgba(255, 0, 0, 0.158); /* Fondo negro con transparencia */
     color: #fff; /* Color de texto blanco */
-    padding: 5px; /* Espacio interno para el texto */
+    padding: 10px; /* Espacio interno para el texto */
     text-align: center; /* Centra el texto horizontalmente */
     font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
     font-size: 18px; /* Tamaño del texto */
@@ -259,17 +259,12 @@ section {
 .latest-updates figcaption {
     font-family: 'Mont Heavy', Arial, sans-serif; /* Aplica la fuente del título */
     color: #fff; /* Cambia el color del texto a blanco */
-    text-decoration: none; /* Quita la subrayado de los enlaces */
-    position: absolute; /* Posiciona el fondo de manera absoluta con respecto a la figura */
+    text-decoration: none; /* Quita la subrayado de los enlaces */ /* Posiciona el fondo de manera absoluta con respecto a la figura */
     background-color: rgba(0, 0, 0, 0.267); /* Color de fondo con transparencia */
-    padding: 12px; /* Ajusta el espacio dentro del fondo */
     border-radius: 12px; /* Agrega bordes redondeados */
-    width: 95.2%; /* Ajusta el ancho del fondo */
-    margin: 0 auto; /* Centra horizontalmente el fondo */
-    bottom: 6px; /* Coloca el fondo 10px desde la parte inferior */
-    left: 50%; /* Centra horizontalmente el fondo */
-    transform: translateX(-50%); /* Ajusta la posición horizontal */
-    transition: background-color 0.3s ease; /* Transición suave */
+    transition: background-color 0.3s ease;
+    font-size: 135%;
+    bottom: 2.6%;
 }
 
 .featured-games,

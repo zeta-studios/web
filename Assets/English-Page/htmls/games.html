@@ -6,32 +6,13 @@
     <title>Games - ZETA STUDIOS</title>
     <link rel="stylesheet" href="../../../Assets/Stylesheets/stylesGames.css">
     <link rel="stylesheet" href="../../../Assets/Stylesheets/stylesUI.css">
+    <link rel="icon" href="/Assets/img-and-videos/logozeta.ico">
 </head>
 <body>
     <div id="particles-js"></div>
 
     <script src="../../../Assets/Javascripts/particles.js"></script>
     <script src="../../../Assets/Javascripts/app.js"></script>
-
-    <div>
-        <a class="language-selector1" href="../../../indexes.html">Español</a>
-        <a class="language-selector2" href="../../../index.html">English</a>
-    </div>
-
-    <script>
-        function cambiarIdioma(idioma) {
-          var pagina;
-          if (idioma === 'es') {
-            pagina = "../../../indexes.html";
-          } else if (idioma === 'en') {
-            pagina = "../../../index.html";
-          }
-          window.location.href = pagina;
-        }
-      </script>
-      
-
-
 
     <header>
         <h1><a class="titleheader" href="../../../index.html">ZETA STUDIOS</a></h1>
@@ -46,6 +27,43 @@
                 <li><a class="nav-link" href="../../../Assets/English-Page/htmls/Contacts.html">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="language" role="radiogroup" aria-labelledby="language-switcher1">
+            <p class="hidden" id="language-switcher1">Choose a language for this website</p>
+            <div class="language__container--left language__container--fr">
+                <input class="language__control" type="radio" id="language1-1" name="language-switch1" value="espanol">
+                <label class="language__label" for="language1-1">
+                    ES<span class="hidden"> Spanish</span>
+                </label>
+            </div>
+            <div class="language__container--right language__container--en">
+                <input class="language__control" type="radio" id="language1-2" name="language-switch1" value="ingles">
+                <label class="language__label" for="language1-2">
+                    EN<span class="hidden"> English</span>
+                </label>
+            </div>
+        </div>
+        
+        <script>
+            // Obtener todos los elementos de radio
+            const languageRadios = document.querySelectorAll('.language__control');
+        
+            // Agregar un evento de cambio a cada radio
+            languageRadios.forEach(radio => {
+                radio.addEventListener('change', function () {
+                    // Obtener el valor del radio seleccionado
+                    const selectedLanguage = this.value;
+        
+                    // Redirigir a la página correspondiente
+                    if (selectedLanguage === 'espanol') {
+                        window.location.href = '../../Spanish-Page/htmls/games.html'; // Reemplaza con la URL de tu página en español
+                    } else if (selectedLanguage === 'ingles') {
+                        window.location.href = '../../English-Page/htmls/games.html'; // Reemplaza con la URL de tu página en inglés
+                    }
+                });
+            });
+        </script>
+
     </header>
 
     <main>
