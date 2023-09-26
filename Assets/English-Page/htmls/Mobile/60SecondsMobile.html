@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60 Seconds - ZETA STUDIOS</title>
+    <link rel="stylesheet" href="../../../../Assets\Stylesheets\styles60SecondsMobile.css">
+    <link rel="stylesheet" href="../../../../Assets\Stylesheets\stylesUI.css">
+    <link rel="icon" href="/Assets/img-and-videos/logozeta.ico">
+
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <script src="../../../../Assets/Javascripts/particles.js"></script>
+    <script src="../../../../Assets/Javascripts/app.js"></script>
+
+
+    <header>
+        <h1><a class="titleheader" href="../../../../index.html">ZETA STUDIOS</a></h1>
+        <h1><a class="titleheadermobile" href="../../../../index.html">ZETA STUDIOS</a></h1>
+
+        <nav class="headernav">
+            <ul>
+                <li><a class="nav-link" href="../../../../index.html">Home</a></li>
+                <li><a class="nav-link" href="../../../../Assets/English-Page/htmls/games.html">Games</a></li>
+                <li><a class="nav-link" href="../../../../Assets/English-Page/htmls/Downloads.html">Downloads</a></li>
+                <li><a class="nav-link" href="../../../../Assets/English-Page/htmls/News.html">News</a></li>
+                <li><a class="nav-link" href="../../../../Assets/English-Page/htmls/Contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="language" role="radiogroup" aria-labelledby="language-switcher1">
+            <p class="hidden" id="language-switcher1">Choose a language for this website</p>
+            <div class="language__container--left language__container--fr">
+                <input class="language__control" type="radio" id="language1-1" name="language-switch1" value="espanol">
+                <label class="language__label" for="language1-1">
+                    ES<span class="hidden"> Spanish</span>
+                </label>
+            </div>
+            <div class="language__container--right language__container--en">
+                <input class="language__control" type="radio" id="language1-2" name="language-switch1" value="ingles">
+                <label class="language__label" for="language1-2">
+                    EN<span class="hidden"> English</span>
+                </label>
+            </div>
+        </div>
+        
+        <script>
+            // Obtener todos los elementos de radio
+            const languageRadios = document.querySelectorAll('.language__control');
+        
+            // Agregar un evento de cambio a cada radio
+            languageRadios.forEach(radio => {
+                radio.addEventListener('change', function () {
+                    // Obtener el valor del radio seleccionado
+                    const selectedLanguage = this.value;
+        
+                    // Redirigir a la página correspondiente
+                    if (selectedLanguage === 'espanol') {
+                        window.location.href = 'indexes.html'; // Reemplaza con la URL de tu página en español
+                    } else if (selectedLanguage === 'ingles') {
+                        window.location.href = 'index.html'; // Reemplaza con la URL de tu página en inglés
+                    }
+                });
+            });
+        </script>
+    </header>
+
+    <main class="mobile">
+        <section class="bl">
+            <h4>60 Seconds</h4>
+            <div class="container">
+                <div class="img_container">
+                    <img src="../../../../Assets/60-assets/seconds1.jpg" alt="" class="main_img">
+                </div>
+
+                <div class="thumbnail_container">
+                    <img class="thumbnail active" src="../../../../Assets/60-assets/seconds1.jpg" alt="">
+                    <img class="thumbnail" src="../../../../Assets/60-assets/seconds2.jpg" alt="">
+                    <img class="thumbnail" src="../../../../Assets/60-assets/seconds3.jpg" alt="">
+                    <img class="thumbnail" src="../../../../Assets/60-assets/seconds4.jpg" alt="">
+                    <img class="thumbnail" src="../../../../Assets/60-assets/seconds5.jpg" alt="">
+                    <img class="thumbnail" src="../../../../Assets/60-assets/seconds6.jpg" alt="">
+                </div>
+            </div>
+            <h5 class="bloodtitle">About this game:</h5>
+            <div>
+                <p>In "60 Seconds," you'll embark on a frantic race for survival for 60 seconds or 1 minute, dodging deadly obstacles and facing challenging bosses.</p>
+                <p>The ever-changing dubstep music will heighten the game's epicness, while the background lights up and changes color to the rhythm of the music. </p>
+                <p>Soon, players will be able to create their own "60 Seconds" levels using songs from the library and share them for other players to enjoy. </p>
+            </div>
+            
+            <p>Do you have the speed and skill required to conquer this exhilarating challenge and create your own levels of fun?</p>
+
+            <a class="downloadto" href="../../../../Assets\English-Page\htmls\Downloads.html">Download</a>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 ZETA STUDIOS</p>
+    </footer>
+
+    <script src="../../../../Assets\Javascripts\javascript60MOBILE.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - ZETA STUDIOS</title>
+    <link rel="stylesheet" href="Assets/Stylesheets/stylesHome.css">
+    <link rel="stylesheet" href="Assets/Stylesheets/stylesUI.css">
+    <script src="Assets/Javascripts/javascriptHome.js"></script>
+        <link rel="icon" href="/Assets/img-and-videos/logozeta.ico">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+
+    <script src="Assets/Javascripts/particles.js"></script>
+    <script src="Assets/Javascripts/app.js"></script>
+
+
+
+
+
+        <header>  
+            <h1><a class="titleheader" href="indexes.html">ZETA STUDIOS</a></h1>
+            <h1><a class="titleheadermobile" href="indexes.html">ZETA STUDIOS</a></h1>
+            
+            <nav class="headernav">
+                <ul>
+                    <li><a class="nav-link" href="indexes.html">Inicio</a></li>
+                    <li><a class="nav-link" href="Assets/Spanish-Page/htmls/games.html">Juegos</a></li>
+                    <li><a class="nav-link" href="Assets/Spanish-Page/htmls/Downloads.html">Descargas</a></li>
+                    <li><a class="nav-link" href="Assets/Spanish-Page/htmls/News.html">Novedades</a></li>
+                    <li><a class="nav-link" href="Assets/Spanish-Page/htmls/Contacts.html">Contactar</a></li>
+                </ul>
+            </nav>
+            
+            <div class="language" role="radiogroup" aria-labelledby="language-switcher1">
+                <p class="hidden" id="language-switcher1">Choose a language for this website</p>
+                <div class="language__container--left language__container--fr">
+                    <input class="language__control" type="radio" id="language1-1" name="language-switch1" value="espanol">
+                    <label class="language__label" for="language1-1">
+                        ES<span class="hidden"> Spanish</span>
+                    </label>
+                </div>
+                <div class="language__container--right language__container--en">
+                    <input class="language__control" type="radio" id="language1-2" name="language-switch1" value="ingles">
+                    <label class="language__label" for="language1-2">
+                        EN<span class="hidden"> English</span>
+                    </label>
+                </div>
+            </div>
+            
+            <script>
+                // Obtener todos los elementos de radio
+                const languageRadios = document.querySelectorAll('.language__control');
+            
+                // Agregar un evento de cambio a cada radio
+                languageRadios.forEach(radio => {
+                    radio.addEventListener('change', function () {
+                        // Obtener el valor del radio seleccionado
+                        const selectedLanguage = this.value;
+            
+                        // Redirigir a la página correspondiente
+                        if (selectedLanguage === 'espanol') {
+                            window.location.href = 'indexes.html'; // Reemplaza con la URL de tu página en español
+                        } else if (selectedLanguage === 'ingles') {
+                            window.location.href = 'index.html'; // Reemplaza con la URL de tu página en inglés
+                        }
+                    });
+                });
+            </script>
+
+
+        </header>
+
+        <main>
+            <section>
+                <h2 class="latesttitle">Ultimas Novedades</h2>
+                <div class="latest-updates">
+                    <p class="titleseconds">60 Seconds:</p>
+                    <p>- Próximamente para dispositivos móviles.</p>
+                    <p>- Un jefe final a los 45 segundos en todos los niveles para aumentar la intensidad.</p>
+                    <p>- Nueva IA para cambios de color en el fondo, que detecta los golpes en la música y cambia el color de fondo.</p>
+                    <p>- Nuevo menu de opciones.</p>
+                </div>
+            </section>
+
+
+
+            <section class="pc">
+                <h3>Juegos Destacados</h3>
+                <div class="featured-games">
+                    <figure>
+                        <a href="Assets/Spanish-Page/htmls/bloodletting.html">
+                            <img src="Assets/img-and-videos/game1.jpg" alt="Bloodletting">
+                        </a>
+                        <figcaption><a href="Assets/Spanish-Page/htmls/bloodletting.html">Bloodletting</a></figcaption>
+                    </figure>
+                    <figure>
+                        <a href="Assets/Spanish-Page/htmls/60Seconds.html">
+                            <img src="Assets/60-assets/seconds1.jpg" alt="60 Seconds">
+                        </a>
+                        <figcaption><a href="Assets/Spanish-Page/htmls/60Seconds.html">60 Seconds</a></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+
+
+            <section class="mobile">
+                <h3>Featured Games</h3>
+                <div class="featured-games">
+                    <figure>
+                        <a href="Assets/Spanish-Page/htmls/Mobile/bloodlettingMobile.html">
+                            <img src="Assets/img-and-videos/game1.jpg" alt="Bloodletting">
+                        </a>
+                        <figcaption><a href="Assets/Spanish-Page/htmls/Mobile/bloodlettingMobile.html">Bloodletting</a></figcaption>
+                    </figure>
+                    <figure>
+                        <a href="Assets/Spanish-Page/htmls/Mobile/60SecondsMobile.html">
+                            <img src="Assets/60-assets/seconds1.jpg" alt="60 Seconds">
+                        </a>
+                        <figcaption><a href="Assets/Spanish-Page/htmls/Mobile/60SecondsMobile.html">60 Seconds</a></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+
+            
+        </main>
+
+        <footer>
+            <p>&copy; 2023 ZETA STUDIOS</p>
+        </footer>
+</body>
+</html>
