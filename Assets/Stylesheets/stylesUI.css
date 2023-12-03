@@ -46,7 +46,7 @@ nav ul {
     padding-block: .1%;
     margin-inline: 32.3%;
     padding-inline: 0%;
-    background-color: hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 8%);
     border-radius: 5px;
 
 
@@ -521,3 +521,85 @@ h8 {
 
 
 
+
+.mobileheadernav ul {
+  font-size: 100%;
+  display: inline-flex;
+  margin: 0%;
+  margin-bottom: 15%;
+  position: relative;
+}
+
+.mobileheadernav ul a {
+  padding-inline: 10px;
+  padding-block: 5px;
+}
+
+.logozetamobile {
+  width: 90%;
+  margin-top: 15%;
+}
+
+.divgamesmobile {
+  display: block;
+  text-align: center;
+}
+.divgamesmobile img {
+  margin-block: 5%;
+}
+
+.contactsectionmobile {
+  margin-inline: 0%;
+}
+
+.divformmobile {
+  margin-inline: 5%;
+  
+}
+
+
+@media (max-width: 800px) {     /* VISTA DISPOSITIVOS MOBILES */
+  .buttondown {
+    display: none;
+  }
+  .headernav {
+    display: none;
+  }
+  .logozetapc {
+    display: none;
+  }
+  .imagenews {
+    display: none;
+  }
+  .containernews {
+    display: none;
+  }
+  .divgames {
+    display: none;
+  }
+  .imgmail {
+    display: none;
+  }
+  .contactsection {
+    display: none;
+  }
+}
+
+@media (min-width: 801px) {    /* VISTA PARA COMPUTADORES */
+  .mobileheadernav {
+      display: none;
+  }
+
+  .logozetamobile {
+    display: none;
+  }
+  .containernewsmobile {
+    display: none;
+  }
+  .divgamesmobile {
+    display: none;
+  }
+  .contactsectionmobile {
+    display: none;
+  }
+}
