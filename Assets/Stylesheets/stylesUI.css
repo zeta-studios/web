@@ -583,9 +583,15 @@ h8 {
   .contactsection {
     display: none;
   }
+  .socialmediapc {
+    display: none;
+  }
 }
 
 @media (min-width: 801px) {    /* VISTA PARA COMPUTADORES */
+  .socialmediamobile{
+    display: none;
+  }
   .mobileheadernav {
       display: none;
   }
@@ -602,4 +608,48 @@ h8 {
   .contactsectionmobile {
     display: none;
   }
+}
+
+.footerline {
+  background-color: #4d4d4d;
+  margin: 0%;
+  padding-block: 0.1px;
+  font-size: 0.1px;
+  margin-block: 3%;
+}
+
+.socialmedialinks {
+  text-align: left;
+  font-size: 100%;
+}
+
+.socialmedialinks p {
+  margin-left: 10px;
+}
+
+.footer {
+  margin-inline: 10%;
+}
+
+footer {
+  padding: 0%;
+  padding-block: 3%;
+}
+
+.linksfooter {
+  filter: invert();
+}
+
+.linksfooter a {
+  margin-inline: 5px;
+}
+
+.socialmedialinks img {
+  transform: scale(1.0);
+  transition: transform 0.3s ease;
+}
+
+.socialmedialinks img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
