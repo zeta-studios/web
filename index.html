@@ -6,6 +6,7 @@
     <title>Home - ZETA STUDIOS</title>
     <link rel="stylesheet" href="Assets/Stylesheets/stylesHome.css">
     <link rel="stylesheet" href="Assets/Stylesheets/stylesUI.css">
+    <link rel="icon" href="Assets/img-and-videos/Proyecto nuevo.png">
     <script defer src="Assets/Javascripts/javascriptHome.js"></script>
 </head>
 <body>
@@ -14,11 +15,11 @@
       
         <header> 
              
-           <div class="gradientcolor">           </div>
+           <div class="gradientcolor">
 
             <img class="logozetapc slide-in-blurred-top" src="Assets/img-and-videos/logozeta.png" alt="">
 
-            <img class="logozetamobile" src="Assets/img-and-videos/logozeta.png" alt="">
+            <img class="logozetamobile slide-in-blurred-top" src="Assets/img-and-videos/logozeta.png" alt="">
 
             <nav class="headernav">
                 <ul>
@@ -54,6 +55,8 @@
                   
                 </g>
               </svg>
+
+            </div>
         </header>
 
         <main>
@@ -63,7 +66,7 @@
 
             
             <div id="news"></div>
-            <section class="hidden News">
+            <section class="hidden News gradientnews">
                 <div class="containernews">
                     <div class="latest-updates">
                         <h3>News</h3>
@@ -91,9 +94,9 @@
             </section>
 
             <div id="games" class="gamesdiv"></div>
-            <section class="hidden games">
+            <section class="games gradientgames">
                 <h4 class="gamestittle hidden">Games</h4>
-
+                <div class="backgames hidden">
                 <div class="divgames">
                     <div class="gameimg"><a href=""><img src="Assets/img-and-videos/game1.jpg" width="80%"></a></div>
                     <div class="gameimg"><a href=""><img src="Assets/img-and-videos/game2.jpg" width="80%"></a></div>
@@ -103,13 +106,14 @@
                     <div class="gameimg"><a href=""><img src="Assets/img-and-videos/game1.jpg" width="80%"></a></div>
                     <div class="gameimg"><a href=""><img src="Assets/img-and-videos/game2.jpg" width="80%"></a></div>
                     <div class="gameimg"><a href=""><img src="Assets/img-and-videos/game3.jpg" width="80%"></a></div>
+                </div> 
                 </div>
             </section>
 
             <section class="hidden contactsectionmobile">
 
                 <div class="divformmobile">
-                        <form action="https://formsubmit.co/support@zetastudios.net" method="POST">
+                        <form action="https://formsubmit.co/contact@zetastudios.net" method="POST">
                             <input type="hidden" name="_template" value="box">   
                             <input type="hidden" name="_next" value="https://zetastudios.net/formcompleted.html">
                             <input type="hidden" name="_autoresponse" value="Hello dear, we have received your email, in a few moments we will contact you.">

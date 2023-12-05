@@ -278,18 +278,18 @@ header img {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: rgba(109, 109, 109, 0.216);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4c4c4c;
+  background: #ffffff88;
   border-radius: 4px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #333333;
+  background: #82828288;
 }
 
 
@@ -730,15 +730,18 @@ footer {
   background: linear-gradient(-45deg,#000000, rgb(53, 53, 53), #131313, #494949);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  height: 90vh;
+  height: 10%;
   position: static;
   z-index: 0;
-  margin-bottom: -40%;
+  margin-bottom: 0%;
 }
 
 .headernav  {
   animation: opacityanim 3s ease;
 
+}
+.mobileheadernav {
+  animation: opacityanim 3s ease;
 }
 
 @keyframes opacityanim {
@@ -754,4 +757,48 @@ footer {
     opacity: calc(1);
     filter: blur(0);
   }
+}
+
+
+.gradientnews {
+  background: linear-gradient(-45deg,#000000, #2c2c2c, #131313, #2c2c2c);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 10%;
+  position: static;
+  z-index: 0;
+  margin-bottom: 0%;
+}
+
+.gradientgames {
+  background: linear-gradient(-45deg,#2d2d2d , #0b0b0b , #1b1b1b , #3c3c3c);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 10%;
+  position: static;
+  z-index: 0;
+  margin-bottom: 0%;
+}
+
+.backgames {
+  background-color: rgba(233, 233, 233, 0.010);
+  padding-block: 3%;
+  margin-inline: 2%;
+  border-radius: 15px;
+  margin-bottom: 2%;
+}
+
+.gamestittle {
+  background-color: rgba(233, 233, 233, 0.049);
+  margin-inline:  2%;
+  border-radius: 15px;
+  margin-top: 3%;
+  padding-block: 1%;
+}
+
+.imgmail img {
+  background: linear-gradient(-45deg,#ffffff22 , #5d5d5d1b , #24242412 , #7979791e);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite LeftAndRight 15s ease infinite;
+  z-index: 0;
 }
