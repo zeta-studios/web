@@ -50,16 +50,12 @@ header {
 
 
 nav ul {
-    margin: 0%;
-    box-shadow: 0;
-    margin-bottom: 0%;
-    padding-block: .1%;
-    margin-inline: 32.3%;
-    padding-inline: 0%;
-    background-color: hsl(0, 0%, 8%);
+
+    background-color: hsla(0, 0%, 8%, 0.438);
     border-radius: 5px;
-
-
+    margin-inline: 28vw;
+    padding-block: 0px;
+    padding-inline: 0%;
 }
 
 nav li {
@@ -73,8 +69,6 @@ nav li {
 nav a {                      /* Navegaciooooooooooooooooooooooooooooooooooooooooon */
     text-decoration: none;
     color: #ffffff;
-    font-weight: normal; 
-    font-size: 1em;
     transition: color 0.3s ease;
     margin-top: 0%;
     margin-inline: 0%;
@@ -127,11 +121,12 @@ footer p {
 }
 
 .nav-link {
-    padding-inline: 28px;
+    padding-inline: 2vw;
     border-radius: 3px;
-    padding-block: 4%;
+    padding-block: 4px;
     transition: background-color 0.3s ease;
     margin-inline: 0%;
+    font-size: 1vw;
 }
 
 /* ANIMACION POP UP */
@@ -309,11 +304,14 @@ header img {
 
 
 h3 {
-  font-size: 200%;
+  font-size: 4vw;
   text-align: left;
   font-weight: bolder;
   padding: 0%;
   margin: 0%;
+}
+p {
+  font-size: 1vw;
 }
 
 .games {
@@ -347,10 +345,9 @@ h3 {
 }
 
 h4 {
-  font-size: 250%;
+  font-size: 3vw;
   text-align: center;
-  margin: 0%;
-  padding: 0%;
+
   margin-bottom: 2%;
 
 }
@@ -424,13 +421,10 @@ h5 {
 }
 
 .contactsection {
- margin: 0%;
- display: grid;
- grid-template-columns: 1fr 1fr;
+ margin-inline: 30%;
  background-color: #6f3e9a00;
 }
 .divform {
-  margin-left: 30%;
   background-color: #00000032;
   padding: 10%;
   padding-bottom: 15%;
@@ -440,18 +434,7 @@ h5 {
 .imgmail {
   text-align: center;
 }
-.imgmail img {
-  animation: MoveLeftAndRight 5s ease infinite;
-  width: 20%;
-  margin-top: 9%;
-  opacity: calc(1);
-  background-color: #ffffff2d;
-  border-radius: 100%;
-  padding: 2%;
-  position: absolute;
-  text-align: center;
-  left: 25%;
-}
+
 
 @keyframes MoveLeftAndRight {
   0%, 100% {
@@ -572,7 +555,7 @@ h8 {
 }
 
 
-@media (max-width: 800px) {     /* VISTA DISPOSITIVOS MOBILES */
+@media (max-width: 900px) {     /* VISTA DISPOSITIVOS MOBILES */
   .buttondown {
     display: none;
   }
@@ -600,9 +583,21 @@ h8 {
   .socialmediapc {
     display: none;
   }
+
+  p{
+    font-size: 3vw;
+  }
+
+  h3 {
+    font-size: 10vw;
+  }
+  h4 {
+    font-size: 10vw;
+  }
+
 }
 
-@media (min-width: 801px) {    /* VISTA PARA COMPUTADORES */
+@media (min-width: 901px) {    /* VISTA PARA COMPUTADORES */
   .socialmediamobile{
     display: none;
   }
@@ -610,6 +605,7 @@ h8 {
       display: none;
   }
 
+  
   .logozetamobile {
     display: none;
   }
@@ -762,45 +758,26 @@ footer {
 }
 
 
-.gradientnews {
-  background-color: #272727;
-  box-shadow: 0px 10px 10px #00000062;
-}
-
-.gradientgames {
-  background: linear-gradient(45deg, #111111, #252525, #111111);
-  animation: gradient 10s ease infinite;
-  background-size: 400% 400%;
-  box-shadow: 0px 0px 25px #00000033;
-}
-
-.gradientgames img {
-  box-shadow: 0px 0px 25px #ffffff18;
-}
-
-
-
 .backgames {
-  background-color: rgb(110, 110, 110);
+  background-color: #242424;
   padding-block: 3%;
   margin-inline: 2%;
   border-radius: 15px;
   margin-bottom: 2%;
-  box-shadow: 0px 0px 25px #00000063;
+
 }
 
 .gamestittle {
-  background-color: rgba(233, 233, 233, 0.049);
-  margin-inline:  2%;
+  background-color: #242424;
+  margin-inline:  25vw;
   border-radius: 15px;
-  margin-top: 3%;
-  padding-block: 1%;
+  margin-top: 2%;
+  padding-block: 10px;
 }
 
 .imgmail img {
-  background: linear-gradient(-45deg,#ffffff22 , #5d5d5d1b , #24242412 , #7979791e);
+
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite LeftAndRight 15s ease infinite;
   z-index: 0;
 }
 
@@ -809,10 +786,7 @@ footer {
     margin-bottom: 20%;
   }
 
-  .divform {
-    box-shadow: 0px 10px 10px #00000062;
-  }
-
+ 
   html {
     scroll-behavior: smooth;
   }
@@ -824,7 +798,7 @@ footer {
 
   .formcompleted {
   background-color: rgba(255, 255, 255, 0.03);
-  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   margin-bottom: 5%;
