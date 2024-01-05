@@ -15,10 +15,10 @@
 
 
 
+
 body {
     font-family: 'Highway Gothic', Arial, sans-serif;
-    background: rgb(16,9,24);
-    background-color: #313131; 
+    background: radial-gradient(circle at 50% 125%, #000000 0%, #242424 80%);
     margin: 0;
     padding: 0;
     font-size: 100%;
@@ -27,7 +27,7 @@ body {
 
 
 header {
-    background-color: #0a0a0a;
+    background-color: rgb(36, 36, 36);
     padding-top: 0%;
     padding-bottom: 0%;
     margin: 0%;
@@ -53,7 +53,7 @@ nav ul {
 
     background-color: hsla(0, 0%, 8%, 0.438);
     border-radius: 5px;
-    margin-inline: 28vw;
+    margin-inline: 32vw;
     padding-block: 0px;
     padding-inline: 0%;
 }
@@ -96,7 +96,7 @@ footer {
     color: #fff;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 100px;
+
     margin-top: 2%;
 }
 
@@ -113,7 +113,7 @@ footer p {
 .nav-link {
     padding-inline: 2vw;
     border-radius: 3px;
-    padding-block: 4px;
+    padding-block: 5px;
     transition: background-color 0.3s ease;
     margin-inline: 0%;
     font-size: 1vw;
@@ -306,6 +306,7 @@ p {
   background-color: #00000046;
   margin-inline: 0%;
   border-radius: 0%;
+  
 }
 
 
@@ -316,7 +317,8 @@ p {
   border-radius: 5px;
   overflow: hidden;
   padding: 0%;
-  position: relative;    
+  position: relative;
+ 
 }
 
 .gametitle{
@@ -387,6 +389,7 @@ p {
   border-radius: 5px;
   transform: scale(1.0);
   transition: all 0.3s ease;
+
 }
 
 .gameimg:hover img {
@@ -398,7 +401,12 @@ p {
 .divgames {
   text-align: center;
   padding: 0%;
-
+  border: solid #1f1f1f 10px;
+  border-radius: 25px;
+  padding: 0%;
+  margin: 0%;
+  background-color: #181818;
+  margin-bottom: 2%;    
 }
 
 h4 {
@@ -416,7 +424,7 @@ h4 {
 
 textarea {
   width: 100%;
-  background-color: #2a2a2a;
+  background-color: #1f1f1f;
   resize: none;
   border: 0px;
   color: white;
@@ -464,34 +472,72 @@ textarea {
   border: 0px; 
 }
 
-.contactdiv {
-  text-align: left;
-  
-}
+
 
 h5 {
   text-align: center;
-  font-size: 250%;
+  font-size: 2vw;
   margin: 0%;
   padding: 0%;
   margin-bottom: 10%;
 }
 
+.aboutMeDiv {
+  background-color: #80808015;
+  border-radius: 10px;
+  padding: 30px;
+  margin-inline: 3vw;
+  margin-top: 20%;
+  margin-bottom: 30%;
+  border: solid 1px #424242;
+}
+.aboutMeDiv p {
+  text-align: center;
+  font-size: 1vw;
+}
+
 .contactsection {
- margin-inline: 30%;
- background-color: #6f3e9a00;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15vw;
+  grid-row-gap: 0px; 
+  background-color: #6f3e9a00;
+  display: grid;
 }
 .divform {
+  
   background-color: #00000032;
-  padding: 10%;
+  padding: 3vw;
   padding-bottom: 15%;
   border-radius: 10px;
+  border: solid 2px rgba(255, 255, 255, 0.123);
+  margin-inline: 3vw;
 }
 
 .imgmail {
   text-align: center;
 }
 
+.contacttittlem {
+  font-size: 8vw;
+}
+.aboutMeDivM {
+  margin-bottom: 20vw;
+  border: solid rgba(255, 255, 255, 0.089) 2px;
+  padding: 8vw;
+  border-radius: 10px;
+  background-color: #161616;
+}
+
+.aboutMeDivM p {
+  font-size: 4vw;
+  text-align: center;
+}
+
+.aboutMeDivM h5 {
+  font-size: 8vw;
+}
 
 h6 {
   text-align: left;
@@ -656,17 +702,12 @@ h8 {
   }
 }
 
-.footerline {
-  background-color: #4d4d4d;
-  margin: 0%;
-  padding-block: 0.1px;
-  font-size: 0.1px;
-  margin-block: 3%;
-}
+
 
 .socialmedialinks {
   text-align: left;
   font-size: 100%;
+  padding-bottom: 10px;
 }
 
 .socialmedialinks p {
@@ -679,7 +720,7 @@ h8 {
 
 footer {
   padding: 0%;
-  padding-block: 3%;
+  padding-block: 20px;
 }
 
 .linksfooter {
@@ -731,7 +772,7 @@ footer {
 
 
 .backgames {
-  padding-block: 3%;
+
   margin-inline: 2%;
   border-radius: 15px;
   margin-bottom: 2%;
@@ -741,8 +782,11 @@ footer {
 .gamestittle {
   margin-inline:  25vw;
   border-radius: 15px;
-  margin-top: 2%;
+  margin-top: 3%;
   padding-block: 10px;
+  border: solid #1f1f1f 10px;
+  border-radius: 25px;
+  background-color: #181818;
 }
 
 .imgmail img {
@@ -780,4 +824,21 @@ footer {
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
+}
+
+.copyright {
+  padding-top: 30px;
+  border-top: solid 1px rgba(255, 255, 255, 0.25);
+}
+
+.divformmobile {
+  border: solid 2px #1f1f1f;
+  padding: 5vw;
+  margin: 0%;
+  border-radius: 10px;
+  background-color: #0000001a;
+}
+
+.contactsectionmobile {
+  background-color: #a82c2c00;
 }
