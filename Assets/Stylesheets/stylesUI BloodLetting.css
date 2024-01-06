@@ -1,0 +1,431 @@
+@font-face {
+    font-family: 'Highway Gothic';
+    src: url('/Assets/Stylesheets/HighwayGothic.ttf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Mont Heavy';
+    src: url("/Assets/Stylesheets/MontHeavy1.ttf") format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    font-family: 'Highway Gothic', Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    color: #fff;
+}
+
+
+header {
+
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+nav ul {
+
+    background-color: hsla(0, 0%, 8%, 0.438);
+    border-radius: 5px;
+    margin-inline: 32vw;
+    padding-block: 0px;
+    padding-inline: 0%;
+}
+
+nav li {
+    display:inline-flex;
+    margin-inline: 0%;
+    padding-inline: 0%;
+
+
+}
+
+nav a {                      /* Navegaciooooooooooooooooooooooooooooooooooooooooon */
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    margin-top: 0%;
+    margin-inline: 0%;
+    padding-inline: 0%;
+}
+
+
+
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin-inline:5%;
+    border-radius: 5px;
+
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    background-size: cover;
+    background-position-y: 40%;
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+
+    margin-top: 2%;
+}
+
+section {
+    background-color: #00000046;
+    margin-block: 2%;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 80%;
+}
+
+.nav-link {
+    padding-inline: 2vw;
+    border-radius: 3px;
+    padding-block: 5px;
+    transition: background-color 0.3s ease;
+    margin-inline: 0%;
+    font-size: 1vw;
+}
+
+/* ANIMACION POP UP */
+.nav-link:hover {
+    background-color: hsl(0, 0%, 16%);
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.nav-link {
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+
+.titleheader {
+    font-size: 96px;
+}
+
+
+
+
+
+  /* LOGO */
+header img {
+    width: 55%;
+    height: auto;
+    margin-top: 3%;
+}
+    
+
+
+
+  .hidden {
+    opacity: 0;
+    transform: translateY(25%);
+    transition: all 1s ease;
+  }
+
+  .show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+  /* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(109, 109, 109, 0.216);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff88;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #82828288;
+}
+
+
+
+.containernews {
+  display: grid;
+  align-items: center; 
+  grid-template-columns:  1fr 1fr;
+  column-gap: 5px;
+}
+
+.imagenews img {
+    width: 85%;
+    border-radius: 5px;
+    
+  }
+.imagenews {
+  text-align: center;
+}
+
+
+h3 {
+  font-size: 4vw;
+  text-align: left;
+  font-weight: bolder;
+  padding: 0%;
+  margin: 0%;
+}
+p {
+  font-size: 1vw;
+}
+
+
+
+
+.mobileheadernav ul {
+  font-size: 100%;
+  display: inline-flex;
+  margin: 0%;
+  margin-bottom: 15%;
+  position: relative;
+}
+
+.mobileheadernav ul a {
+  padding-inline: 10px;
+  padding-block: 5px;
+}
+
+.logozetamobile {
+  width: 90%;
+  margin-top: 15%;
+}
+
+
+@media (max-width: 900px) {     /* VISTA DISPOSITIVOS MOBILES */
+  .headernav {
+    display: none;
+  }
+  .logozetapc {
+    display: none;
+  }
+  .imagenews {
+    display: none;
+  }
+  .containernews {
+    display: none;
+  }
+  .divgames {
+    display: none;
+  }
+
+  .socialmediapc {
+    display: none;
+  }
+
+  p{
+    font-size: 3vw;
+  }
+
+  h3 {
+    font-size: 10vw;
+  }
+
+}
+
+@media (min-width: 901px) {    /* VISTA PARA COMPUTADORES */
+  .socialmediamobile{
+    display: none;
+  }
+  .mobileheadernav {
+      display: none;
+  }
+
+  
+  .logozetamobile {
+    display: none;
+  }
+  .containernewsmobile {
+    display: none;
+  }
+}
+
+
+
+.socialmedialinks {
+  text-align: left;
+  font-size: 100%;
+  padding-bottom: 10px;
+}
+
+.socialmedialinks p {
+  margin-left: 10px;
+}
+
+.footer {
+  margin-inline: 10%;
+}
+
+footer {
+  padding: 0%;
+  padding-block: 20px;
+}
+
+.linksfooter {
+  filter: invert();
+}
+
+.linksfooter a {
+  margin-inline: 5px;
+}
+
+.socialmedialinks img {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.socialmedialinks img:hover {
+  color: purple;
+  transition: color 0.3s ease;
+}
+
+
+
+.gradientcolor {
+  background: linear-gradient(-45deg,#141414, #202020, #0f0f0f, #202020, #141414);
+  background-size: 500% 500%;
+  animation: gradient 55s ease infinite;
+  height: 10%;
+  position: static;
+  z-index: 0;
+  margin-bottom: 0%;
+}
+
+
+
+@keyframes opacityanim {
+  0% {
+    opacity: calc(0);
+    filter: blur(5px);
+  }
+  30% {
+    opacity: calc(0);
+    filter: blur(5px);
+  }
+  100% {
+    opacity: calc(1);
+    filter: blur(0);
+  }
+}
+ 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #news {
+    padding: 4%;
+  }
+
+.copyright {
+  padding-top: 30px;
+  border-top: solid 1px rgba(255, 255, 255, 0.25);
+}
+
+.gameView {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0vw;
+  grid-row-gap: 0px;
+  margin-top: 0vw; 
+}
+
+section p {
+  font-size: 1vw;
+}
+
+h3 {
+  text-align: center;
+  font-family: Mont Heavy;
+  font-weight: 100;
+  color: #eb2c52;
+  text-shadow: 5px 5px 1px rgba(158, 27, 53, 0.438);
+  font-size: 4vw;
+  margin-top: 3vw;
+}
+
+.gameText {
+  margin-left: 6vw;
+}
+
+section {
+  background-color: #111111;
+  border-radius: 10px;
+  margin-inline:10vw;
+  border: solid 1px #ce96a0;
+  box-shadow: 0px 0px 30px crimson;
+  margin-top: 2vw;
+  position: relative;
+  animation: shadowAnim 5s ease infinite;
+}
+
+.gameImg img {
+  border-radius: 10px;
+  border: solid 1px #db3758;
+}
+
+.gameDesc {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0vw;
+  grid-row-gap: 0px;
+}
+
+.logozetapc {
+  width: 30vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+
+@keyframes shadowAnim {
+  0% {
+    box-shadow: 0px 0px 30px crimson;
+  }
+  50% {
+    box-shadow: 0px 0px 0px crimson;
+  }
+  100% {
+    box-shadow: 0px 0px 30px crimson;
+  }
+}
