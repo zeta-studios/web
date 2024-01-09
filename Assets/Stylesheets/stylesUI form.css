@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Highway Gothic';
+    src: url('HighwayGothic.ttf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Mont Heavy';
+    src: url("MontHeavy1.ttf") format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    font-family: 'Highway Gothic', Arial, sans-serif;
+    background: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    color: #fff;
+}
+
+
+header {
+    background-color: rgba(36, 36, 36, 0);
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+}
+
+.logozetaform {
+  width: 50vw;
+  margin: 2vw;
+}
+
+.formcompleted {
+  background-color: #1f1f1f;
+  margin-inline: 30vw;
+  border: solid 2px rgb(174, 0, 255);
+}
+
+h8 {
+  font-family: Mont Heavy;
+  color: rgb(153, 0, 255);
+}
+
+.linkform {
+  color: rgb(153, 0, 255);
+  font-size: 1.5vw;
+  transition: all 0.3s ease;
+  font-family: Mont Heavy;
+  font-weight: 100;
+}
+
+.linkform:hover {
+  color: rgb(170, 41, 255);
+  font-size: 1.5vw;
+  transition: all 0.3s ease;
+}

@@ -324,7 +324,7 @@ footer {
 .gradientcolor {
   background: linear-gradient(-45deg,#141414, #202020, #0f0f0f, #202020, #141414);
   background-size: 500% 500%;
-  animation: gradient 55s ease infinite;
+  animation: gradient 20s ease infinite;
   height: 10%;
   position: static;
   z-index: 0;
@@ -378,7 +378,8 @@ h3 {
   text-align: center;
   font-family: Mont Heavy;
   font-weight: 100;
-  color: #ffffff;
+  color: #eb2c52;
+  text-shadow: 5px 5px 1px rgba(158, 27, 53, 0.438);
   font-size: 4vw;
   margin-top: 3vw;
 }
@@ -391,14 +392,16 @@ section {
   background-color: #111111;
   border-radius: 10px;
   margin-inline:10vw;
-  border: solid 2px rgb(59, 59, 59);
+  border: solid 1px #ce96a0;
+  box-shadow: 0px 0px 30px crimson;
   margin-top: 2vw;
   position: relative;
+  animation: shadowAnim 5s ease infinite;
 }
 
 .gameImg img {
   border-radius: 10px;
-  border: solid 2px #3b3b3b;
+  border: solid 1px #db3758;
 }
 
 .gameDesc {
@@ -417,6 +420,69 @@ section {
 
 
 
+section {
+  border: solid 2px rgb(61, 61, 61);
+  box-shadow: none;
+  margin-inline: 20vw;
+  background-color: #2b2b2b;
+}
+
+h1 {
+  font-size: 3vw;
+  text-align: center;
+  font-family: Mont Heavy;
+  font-weight: 100;
+  margin: 0%;
+}
+
+.lastupdated {
+  text-align: center;
+  margin: 0%;
+  font-size: 1.2vw;
+  color: #b432ff;
+}
+
+.tittle {
+  margin-inline: 36vw;
+  padding-block: .5vw;
+  background-color: rgba(255, 255, 255, 0);
+  border:  none;
+}
+
+h2 {
+  font-size: 1.5vw;
+  text-align: left;
+  font-family: Mont Heavy;
+  font-weight: 100;
+  margin: 0%;
+}
+h3 {
+  font-size: 1.2vw;
+  text-align: left;
+  font-family: Mont Heavy;
+  font-weight: 100;
+  margin: 0%;
+  text-shadow: none;
+  color: white;
+  padding: 0%;
+}
+
+h5 {
+  font-size: 2vw;
+  font-family: Mont Heavy;
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  font-style: oblique;
+}
+
+.thanks {
+  background-color: #0a0a0a00;
+  margin: 0%;
+  padding: 0%;
+  margin-bottom: 4vw;
+  border:  none;
+}
 header {
   background-color: #00000000;
 }
